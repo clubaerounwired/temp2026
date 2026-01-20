@@ -18,15 +18,8 @@ export default function Page() {
         />
       </div>
       <div className="absolute">
-        <FuzzyText
-          color="#A78BFA"
-          baseIntensity={0.2}
-          hoverIntensity={0.5}
-          enableHover
-          className="w-full h-full"
-          fontSize="clamp(4rem, 20vw, 12rem)"
-        >
-          COMING SOON!
+        <FuzzyText baseIntensity={0.2} hoverIntensity={0.5} enableHover>
+          Coming Soon!!
         </FuzzyText>
       </div>
     </div>
