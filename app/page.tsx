@@ -20,13 +20,13 @@ export default function Page() {
       <div className="absolute">
         <FuzzyText
           color="#A78BFA"
-          baseIntensity={0.2}
+          baseIntensity={0.13}
           hoverIntensity={0.5}
           enableHover
-          className="w-full h-full"
-          fontSize="clamp(4rem, 20vw, 12rem)"
+          className="w-full h-[15vh]"
+          fontSize="clamp(6rem, 6vw, 20rem)"
         >
-          COMING SOON!
+          SYSTEMS CHECK: IN PROGRESS
         </FuzzyText>
       </div>
     </div>
